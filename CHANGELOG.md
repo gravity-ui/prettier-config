@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/gravity-ui/prettier-config/compare/v1.0.0...v1.0.1) (2022-08-24)
+
+
+### Bug Fixes
+
+* package files ([cbc0064](https://github.com/gravity-ui/prettier-config/commit/cbc0064cda4a41a9b3bd8f8a59e0ac4d0d30cf60))
+
 ## 1.0.0 (2022-08-24)
 
 
