@@ -1,13 +1,13 @@
-# @yandex-cloud/prettier-config
+# @gravity-ui/prettier-config
 
 ## Install
 ```
-npm install --save-dev prettier @yandex-cloud/prettier-config
+npm install --save-dev prettier @gravity-ui/prettier-config
 ```
 
 ## Usage
 Add `.prettierrc.js` file in the project root with the following content:
 
 ```js
-module.exports = require("@yandex-cloud/prettier-config");
+module.exports = require("@gravity-ui/prettier-config");
 ```

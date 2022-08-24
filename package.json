@@ -1,7 +1,7 @@
 {
-  "name": "@yandex-cloud/prettier-config",
+  "name": "@gravity-ui/prettier-config",
   "version": "1.0.0",
-  "description": "Yandex.Cloud Prettier config, following our styleguide",
+  "description": "Gravity UI Prettier config, following our styleguide",
   "keywords": [
     "prettier",
     "config"
@@ -9,7 +9,20 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yandex-cloud/prettier-config"
+    "url": "https://github.com/gravity-ui/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/gravity-ui/prettier-config/issues"
+  },
+  "homepage": "https://github.com/gravity-ui/prettier-config#readme",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "husky": "8.0.1"
   },
   "peerDependencies": {
     "prettier": "^2.2.1"
