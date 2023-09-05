@@ -20,14 +20,23 @@
   "homepage": "https://github.com/gravity-ui/prettier-config#readme",
   "scripts": {
     "prepare": "husky install",
+    "lint": "npm run prettier -- --check",
+    "prettier": "prettier '**/*.{js,md,yaml,yml,json}'",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.3",
-    "@commitlint/config-conventional": "17.0.3",
-    "husky": "8.0.1"
+    "@commitlint/cli": "17.7.1",
+    "@commitlint/config-conventional": "17.7.0",
+    "husky": "8.0.3",
+    "nano-staged": "^0.8.0",
+    "prettier": "^3.0.3"
   },
   "peerDependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "*"
+  },
+  "nano-staged": {
+    "*.{js,md,yaml,yml,json}": [
+      "prettier --write"
+    ]
   }
 }
