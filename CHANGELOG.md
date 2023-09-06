@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/gravity-ui/prettier-config/compare/v1.0.1...v1.1.0) (2023-09-06)
+
+
+### Features
+
+* weaker dependency on prettier, use prettier on project files ([#3](https://github.com/gravity-ui/prettier-config/issues/3)) ([59541b9](https://github.com/gravity-ui/prettier-config/commit/59541b9b34ff59028c794450fe4d94379e14af29))
+
 ## [1.0.1](https://github.com/gravity-ui/prettier-config/compare/v1.0.0...v1.0.1) (2022-08-24)
 
 
