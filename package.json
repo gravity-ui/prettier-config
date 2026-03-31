@@ -29,13 +29,13 @@
     "prepublishOnly": "npm run -s build"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.7.1",
-    "@commitlint/config-conventional": "17.7.0",
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
     "@gravity-ui/tsconfig": "^1.0.0",
-    "husky": "8.0.3",
-    "nano-staged": "^0.8.0",
+    "husky": "^9.1.7",
+    "nano-staged": "^0.9.0",
     "prettier": "^3.8.1",
-    "typescript": "^5.2.2"
+    "typescript": "^6.0.2"
   },
   "peerDependencies": {
     "prettier": "*"
