@@ -7,7 +7,9 @@
     "config"
   ],
   "license": "MIT",
+  "types": "./types/index.d.ts",
   "files": [
+    "types/",
     "index.js"
   ],
   "repository": {
@@ -22,14 +24,18 @@
     "prepare": "husky install",
     "lint": "npm run prettier -- --check",
     "prettier": "prettier '**/*.{js,md,yaml,yml,json}'",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "tsc -p tsconfig.publish.json",
+    "prepublishOnly": "npm run -s build"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.7.1",
-    "@commitlint/config-conventional": "17.7.0",
-    "husky": "8.0.3",
-    "nano-staged": "^0.8.0",
-    "prettier": "^3.0.3"
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@gravity-ui/tsconfig": "^1.0.0",
+    "husky": "^9.1.7",
+    "nano-staged": "^0.9.0",
+    "prettier": "^3.8.1",
+    "typescript": "^6.0.2"
   },
   "peerDependencies": {
     "prettier": "*"
